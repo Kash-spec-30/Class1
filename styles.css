@@ -1,0 +1,17 @@
+body {
+    background-color: navy;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
