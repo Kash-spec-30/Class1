@@ -1,15 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=2.0">
-  <title>Hello RNA</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Hello Folks</h1>
-    <p>Any idea what's RNA?</p>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Login Page</title> 
+      <link rel="stylesheet" href= "styles.css">
+  </head>
+  <body>
+  
+  <div class="video-background">
+      <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="assests\fire.mp4" type="video/mp4">
+      </video>
   </div>
-</body>
-</html>
+  
+  <div class="login-container">
+      <form action="/submit-your-login-form" method="post">
+          <h1>Login</h1>
+          <label for="username">
+              <b>Username</b>
+          </label>
+          <input type="text" placeholder="Enter Username" name="username" required>
+          
+          <label for="password">
+              <b>Password</b>
+          </label>
+          <input type="password" placeholder="Enter Password" name="password" required>
+          
+          <button type="submit">Login</button>
+      </form>
+  </div>
+  
+  </body>
+  </html>
+  
